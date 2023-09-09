@@ -54,6 +54,6 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            jpdassoler/aula-conversao-temperatura:v1
+            jpdassoler/aula-conversao-temperatura:${{github.run_number}}
             jpdassoler/aula-conversao-temperatura:latest
           
